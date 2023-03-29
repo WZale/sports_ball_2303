@@ -15,4 +15,9 @@ class Team
   def add_player(player)
     @roster << player
   end
+
+  def long_term_players
+    require 'pry'; binding.pry
+  end
+
 end
