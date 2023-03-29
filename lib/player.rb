@@ -11,5 +11,8 @@ class Player
    name.split[0]
   end
 
-  
+  def last_name
+    name.split[1]
+   end
+
 end
